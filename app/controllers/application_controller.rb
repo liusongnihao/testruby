@@ -10,5 +10,7 @@ class ApplicationController < ActionController::Base
   def world
     render html:"world!"
   end
+  def sdf
 
+  end
 end
