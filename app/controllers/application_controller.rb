@@ -7,4 +7,8 @@ class ApplicationController < ActionController::Base
   def goobye
     render html:"goobye!"
   end
+  def world
+    render html:"world!"
+  end
+
 end
